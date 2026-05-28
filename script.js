@@ -19,7 +19,7 @@ const TRANS = {
     label_mgmt:'ผู้บริหาร · Management',
     title_mgmt:'ทีมผู้บริหาร',
     sub_mgmt:'',
-    label_customers:'ลูกค้าหลัก · Main Customers',
+    label_customers:'ลูกค้าหลัก · Main Clients',
     title_customers:'ลูกค้าองค์กรที่ไว้วางใจเรา',
     sub_customers:'',
     label_contact:'ติดต่อเรา',
@@ -131,7 +131,7 @@ function toggleLang() {
   const aboutPs = document.querySelectorAll('.about-text p');
   if(aboutPs.length >= 3) {
     if(currentLang === 'en') {
-      aboutPs[0].innerHTML = '<strong>Seree Transport S.R.T.</strong> was registered as a legal entity on <strong>June 12, 1990</strong>, with a vision to provide passenger transport services with the highest standards of safety, quality, and customer satisfaction.';
+      aboutPs[0].innerHTML = '<strong>Seree Transport S.R.T.</strong> was registered as a legal entity on <strong>June 12, 1990</strong>, with a vision to provide passenger transport services with the highest standards of safety, quality, and client satisfaction.';
       aboutPs[1].innerHTML = 'Over more than 35 years, the company has continuously developed service quality, supported by a team of professionally trained drivers and a fully stocked spare parts warehouse ensuring vehicles are always maintained in top condition.';
       aboutPs[2].style.display = 'none';
     } else if(currentLang === 'zh') {
